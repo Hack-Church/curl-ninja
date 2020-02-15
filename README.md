@@ -40,4 +40,4 @@ curl https://curl.ninja/winpeas | sh > wp.exe
  - [x] [WinPEASx84.exe](https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite/tree/master/winPEAS) via `/winpeas`
  - [x] WinPEASx64.exe via `winpeas64`
 
- If you notice any favorite open source tools are missing, open an [issue](https://github.com/Hack-Church/curl-ninja/issues)
+ If you notice any favorite open source tools are missing or your favorite command line tool is returing `html`, open an [issue](https://github.com/Hack-Church/curl-ninja/issues)
