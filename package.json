@@ -1,0 +1,11 @@
+{
+  "name": "curl-ninja",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:Hack-Church/curl-ninja.git",
+  "author": "<jesseflorig@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

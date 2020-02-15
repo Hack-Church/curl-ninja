@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "builds": [{ "src": "index.js", "use": "@now/node-server" }],
+  "routes": [
+    {
+      "src": "/",
+      "dest": "/index.js",
+      "methods": ["GET"]
+    },
+    {
+      "src": "/shell/(?<lang>[^/]*)/(?<target>[^/]*)/(?<port>[^/]*)",
+      "dest": "/shell/$lang/$target/$port",
+      "methods": ["GET"]
+    }
+  ]
+}
