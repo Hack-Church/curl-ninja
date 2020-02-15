@@ -9,7 +9,7 @@
     },
     {
       "src": "/(.*)",
-      "dest": "/$1",
+      "dest": "/index.js",
       "methods": ["GET"]
     }
   ]
