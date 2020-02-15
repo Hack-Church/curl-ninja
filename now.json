@@ -8,8 +8,8 @@
       "methods": ["GET"]
     },
     {
-      "src": "/shell/(?<lang>[^/]*)/(?<target>[^/]*)/(?<port>[^/]*)",
-      "dest": "/shell/$lang/$target/$port",
+      "src": "/(.*)",
+      "dest": "/$1",
       "methods": ["GET"]
     }
   ]

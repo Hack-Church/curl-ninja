@@ -5,6 +5,9 @@
   "repository": "git@github.com:Hack-Church/curl-ninja.git",
   "author": "<jesseflorig@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
   "dependencies": {
     "express": "^4.17.1"
   }
